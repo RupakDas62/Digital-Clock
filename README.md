@@ -2,16 +2,6 @@
 
 This is a simple digital clock application built with React. The clock updates every second to display the current time.
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Code Explanation](#code-explanation)
-  - [App Component](#app-component)
-  - [CSS Styling](#css-styling)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Installation
 
 1. Clone the repository:
