@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'DS-Digital';
+  src: url('DS-DIGIT.ttf')
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer {
+  border-radius: 40px;
+  box-shadow: 20px 20px 40px rgb(211, 210, 210);
+  /* padding: 20px; */
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+  font-size: 10.5rem;
+  font-family: DS-Digital;
+  background-color: black;
+  color: red;
+  border: 20px solid rgb(55, 55, 55);
+  border-radius: 40px;
+  padding: 20px;
+  text-shadow: 7px 7px 10px #cda0a0;
+}
+
+.hour {
+  background-color: rgb(37, 37, 37);
+  border-radius: 35px;
+  /* border: 2px solid red; */
+  height: 250px;
+  width: 250px;
+  box-shadow: 5px 5px 20px rgb(190, 184, 184);
+  text-align: center;
+  margin-left: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.minute {
+  background-color: rgb(37, 37, 37);
+  border-radius: 35px;
+  height: 250px;
+  width: 250px;
+  box-shadow: 5px 5px 20px rgb(190, 184, 184); 
+  text-align: center;
+  /* padding: 10px; */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.second {
+  background-color: rgb(37, 37, 37);
+  border-radius: 35px;
+  height: 250px;
+  width: 250px;
+  box-shadow: 5px 5px 20px rgb(190, 184, 184);
+  text-align: center;
+  margin-right: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
