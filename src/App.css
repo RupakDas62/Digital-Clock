@@ -11,6 +11,13 @@ body {
   align-items: center;
 }
 
+.head-center {
+  display: flex;
+  justify-content: center;
+  font-family: DS-Digital;
+  font-size: 2rem;
+}
+
 .outer {
   border-radius: 40px;
   box-shadow: 20px 20px 40px rgb(211, 210, 210);
