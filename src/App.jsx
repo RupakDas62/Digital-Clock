@@ -18,6 +18,7 @@ function App() {
 
   return (
     <>
+      <h1> Digital Clock Made By Rupak Das</h1>
       <div className='outer'>
         <div className='inner'>
           <div className='hour'>&nbsp;{hour <10  ? '0' +  hour : hour }&nbsp;</div>&nbsp;: &nbsp;
